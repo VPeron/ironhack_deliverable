@@ -63,3 +63,5 @@ st.markdown("""A brief summary of some of the most relevant attacks to critical 
     	In 2017, the TRISIS (or Triton) malware was discovered targeting a Saudi Arabian petrochemical plant. 
         It was designed to manipulate the plant's safety systems, posing significant risks to both personnel and the facility itself.
 """)
+
+st.image('static/powerplants_geodata2019.png')
