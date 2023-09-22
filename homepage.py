@@ -83,4 +83,4 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background('static/powerplants_geodata2019.png')
+set_background('static/nuclear_background.png')
