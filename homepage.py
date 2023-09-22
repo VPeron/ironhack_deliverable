@@ -49,7 +49,7 @@ nuclear energy and critical-infrastruture.*
 
 ### INDEX
 
-<a href={definition_url}><button style="background-color:GreenYellow;">1. Definition of Critical Infrastructure</button></a>
+<a href={definition_url} target="_self"><button style="background-color:GreenYellow;">1. Definition of Critical Infrastructure</button></a>
 
 <a href={risks_and_threats_url}><button style="background-color:GreenYellow;">2. Cyber Risks and Threats Relating to Critical Infrastructure</button></a>
 
