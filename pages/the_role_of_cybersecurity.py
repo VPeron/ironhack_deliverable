@@ -22,7 +22,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-st.title("Lorem Ipsum")
+st.title("What is the role of cybersecurity in protecting the nuclear power industry, and how is cybersecurity ensured in nuclear power plants")
 
 st.markdown("""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

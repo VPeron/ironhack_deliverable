@@ -22,7 +22,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-st.title("Lorem Ipsum")
+st.title("Cyber Risks and Threats Relating to Critical Infrastructure")
 
 st.markdown("""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
