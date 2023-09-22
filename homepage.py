@@ -29,7 +29,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-st.title('Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants (?)')
+st.title('Guarding Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants')
 
 definition_url = "https://ironhackdeliverable-group5.streamlit.app/definition_of_critical_infrastructure"
 risks_and_threats_url = "https://ironhackdeliverable-group5.streamlit.app/risks_and_threats"
