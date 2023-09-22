@@ -1,6 +1,6 @@
-import base64
-
 import streamlit as st
+
+from utils.img_bkground import set_background
 
 
 st.set_page_config(
@@ -66,24 +66,5 @@ nuclear energy as critical-infrastruture targets.**
   
 """, unsafe_allow_html=True)
 
-
-# prep img format
-def get_base64(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
-
-# set background
-def set_background(png_file):
-    bin_str = get_base64(png_file)
-    page_bg_img = '''
-    <style>
-    .stApp {
-    background-image: url("data:static/png;base64,%s");
-    background-size: cover;
-    }
-    </style>
-    ''' % bin_str
-    st.markdown(page_bg_img, unsafe_allow_html=True)
-
+# set background img
 set_background('static/home_background_dark.png')

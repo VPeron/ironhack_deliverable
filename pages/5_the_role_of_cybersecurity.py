@@ -1,47 +1,15 @@
 import streamlit as st
 
+from utils.load_boilerplate import setup_page_config
+from utils.fetch_markdown import render_markdown
 
-st.set_page_config(
-    page_title="Ironhack", 
-    page_icon="☢️",
-    layout="centered", 
-    initial_sidebar_state="collapsed", 
-    menu_items=None
-    )
 
-hide_streamlit_style = """
-    <style>
-    
-    footer {
-        visibility:hidden;
-    }
-    footer:after {
-        content: 'Ironhack deliverable - Group 5 ®️';
-        visibility: visible;
-        display: block;
-        position: relative;
-        #background-color: red;
-        padding: 5px;
-        top: 2px;
-    }
-    </style>
-"""
-# Inject CSS with Markdown
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+setup_page_config()
 
-# home button
-home_url = "https://ironhackdeliverable-group5.streamlit.app/"
-st.markdown(f"""
-<a href={home_url} target="_self"><button style="background-color:GreenYellow;">Home</button></a>
-""", unsafe_allow_html=True)
 
 # content
 st.title("What is the role of cybersecurity in protecting the nuclear power industry, and how is cybersecurity ensured in nuclear power plants")
 
-st.markdown("""
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
-            
-            """)
+cyber_role_data = render_markdown('static/cyber_roles.md')
+
+st.markdown(cyber_role_data)
