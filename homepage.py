@@ -1,6 +1,12 @@
 import streamlit as st
 
-st.set_page_config(page_title="Ironhack", page_icon="☢️",layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(
+    page_title="Ironhack", 
+    page_icon="☢️",
+    layout="wide", 
+    initial_sidebar_state="collapsed", 
+    menu_items=None
+    )
 
 hide_streamlit_style = """
     <style>
@@ -46,14 +52,6 @@ nuclear energy and critical-infrastruture.*
 <a href={definition_url}><button style="background-color:GreenYellow;">1. Definition of Critical Infrastructure</button></a>
 
 <a href={risks_and_threats_url}><button style="background-color:GreenYellow;">2. Cyber Risks and Threats Relating to Critical Infrastructure</button></a>
-
-    2.1. A comprehensive analysis of the threat landscape 
-    
-    2.2. Motivations behind cyber-attacks on critical infrastructure (espionage etc.)
-    
-    2.3. An assessment of vulnerabilities and potential impacts associated with the attacks
-    
-    2.4. Implications of Cyber-Attacks on Nuclear Infrastructure (-Safety and Radiation Risk  -Political and Geopolitical Consequences)
 
 <a href={history_url}><button style="background-color:GreenYellow;">3. History of how it's been attacked in the past</button></a>
 
