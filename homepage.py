@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Ironhack", 
     page_icon="☢️",
-    layout="wide", 
+    layout="centered", 
     initial_sidebar_state="collapsed", 
     menu_items=None
     )
@@ -59,4 +59,4 @@ nuclear energy and critical-infrastruture.*
 
 <a href={role_of_cyber_url} target="_self"><button style="background-color:GreenYellow;">5. What is the role of cybersecurity</button></a>
   
-            """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
