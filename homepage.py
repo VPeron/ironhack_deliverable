@@ -43,9 +43,6 @@ attack_vectors_url = "https://ironhackdeliverable-group5.streamlit.app/modern_at
 role_of_cyber_url = "https://ironhackdeliverable-group5.streamlit.app/the_role_of_cybersecurity"
 
 st.markdown(f"""
-
----
-
 ### Group Members:
 - Antonio
 - Cesar
@@ -63,7 +60,7 @@ nuclear energy as critical-infrastruture targets.**
 
 <a href={risks_and_threats_url} target="_self"><button style="background-color:GreenYellow;">2. Cyber Risks and Threats Relating to Critical Infrastructure</button></a>
 
-<a href={history_url} target="_self"><button style="background-color:GreenYellow;">3. History of Past Attacks</button></a>
+<a href={history_url} target="_self"><button style="background-color:GreenYellow;">3. History of Attacks</button></a>
 
 <a href={attack_vectors_url} target="_self"><button style="background-color:GreenYellow;">4. Modern Vectors of Attack</button></a>
 

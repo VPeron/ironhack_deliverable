@@ -35,7 +35,7 @@ st.markdown(f"""
 <a href={home_url} target="_self"><button style="background-color:GreenYellow;">Home</button></a>
 """, unsafe_allow_html=True)
 
-
+# content
 st.title("What is the role of cybersecurity in protecting the nuclear power industry, and how is cybersecurity ensured in nuclear power plants")
 
 st.markdown("""

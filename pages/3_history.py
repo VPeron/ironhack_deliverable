@@ -36,7 +36,7 @@ st.markdown(f"""
 <a href={home_url} target="_self"><button style="background-color:GreenYellow;">Home</button></a>
 """, unsafe_allow_html=True)
 
-
+# content
 st.title("History of how it's been attacked in the past")
 
 st.image('static/types_of_powerplants.png')
