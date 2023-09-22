@@ -54,5 +54,11 @@ nuclear energy and critical-infrastruture.*
   
             """)
 
+st.button('[1. Definition of Critical Infrastructure](https://ironhackdeliverable-group5.streamlit.app/definition_of_critical_infrastructure)', key='definition')
+st.button('[2. Cyber Risks and Threats Relating to Critical Infrastructure](https://ironhackdeliverable-group5.streamlit.app/risks_and_threats)', key='risks and threats')
+st.button("[3. History of how it's been attacked in the past](https://ironhackdeliverable-group5.streamlit.app/history)", key='history')
+st.button("[4. Modern Vectors of Attack](https://ironhackdeliverable-group5.streamlit.app/modern_attack_vectors)", key='modern attacks')
+st.button("[5. the role of cybersecurity](https://ironhackdeliverable-group5.streamlit.app/the_role_of_cybersecurity)", key='role of cyber')
+
 
 
