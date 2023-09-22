@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(layout='wide')
+
 
 st.title('Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants (?)')
 
