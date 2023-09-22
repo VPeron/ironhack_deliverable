@@ -1,4 +1,8 @@
+import base64
+
 import streamlit as st
+
+
 
 st.set_page_config(
     page_title="Ironhack", 
@@ -31,6 +35,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.title('Guarding Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants')
 
+# define pages url paths
 definition_url = "https://ironhackdeliverable-group5.streamlit.app/definition_of_critical_infrastructure"
 risks_and_threats_url = "https://ironhackdeliverable-group5.streamlit.app/risks_and_threats"
 history_url = "https://ironhackdeliverable-group5.streamlit.app/history"
@@ -38,14 +43,19 @@ attack_vectors_url = "https://ironhackdeliverable-group5.streamlit.app/modern_at
 role_of_cyber_url = "https://ironhackdeliverable-group5.streamlit.app/the_role_of_cybersecurity"
 
 st.markdown(f"""
+
+---
+
 ### Group Members:
 - Antonio
 - Cesar
 - Rabia
 - Vini  
 
-*Our end-of-bootcamp project aims to illustrate the importance of CyberSecurity in the realms of 
-nuclear energy and critical-infrastruture.*
+**Our bootcamp capstone-project aims to illustrate the importance of CyberSecurity in the realms of 
+nuclear energy as critical-infrastruture targets.**
+
+---
 
 ### INDEX
 
@@ -60,8 +70,6 @@ nuclear energy and critical-infrastruture.*
 <a href={role_of_cyber_url} target="_self"><button style="background-color:GreenYellow;">5. What is the role of cybersecurity</button></a>
   
 """, unsafe_allow_html=True)
-
-import base64
 
 
 # prep img format
