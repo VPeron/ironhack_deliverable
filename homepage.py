@@ -86,4 +86,4 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background('static/nuclear_background.png')
+set_background('static/home_background_dark.png')
