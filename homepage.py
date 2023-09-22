@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Ironhack", page_icon="☢️",layout='wide')
+st.set_page_config(page_title="Ironhack", page_icon="☢️",layout="wide", initial_sidebar_state="collapsed")
 
 hide_streamlit_style = """
     <style>
@@ -26,6 +26,10 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.title('Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants (?)')
 
 definition_url = "https://ironhackdeliverable-group5.streamlit.app/definition_of_critical_infrastructure"
+risks_and_threats_url = "https://ironhackdeliverable-group5.streamlit.app/risks_and_threats"
+history_url = "https://ironhackdeliverable-group5.streamlit.app/history"
+attack_vectors_url = "https://ironhackdeliverable-group5.streamlit.app/modern_attack_vectors"
+role_of_cyber_url = "https://ironhackdeliverable-group5.streamlit.app/the_role_of_cybersecurity"
 
 st.markdown(f"""
 ### Group Members:
@@ -40,8 +44,8 @@ nuclear energy and critical-infrastruture.*
 ### INDEX
 
 <a href={definition_url}><button style="background-color:GreenYellow;">1. Definition of Critical Infrastructure</button></a>
-1. Definition of Critical Infrastructure
-2. Cyber Risks and Threats Relating to Critical Infrastructure
+
+<a href={risks_and_threats_url}><button style="background-color:GreenYellow;">2. Cyber Risks and Threats Relating to Critical Infrastructure</button></a>
 
     2.1. A comprehensive analysis of the threat landscape 
     
@@ -50,18 +54,11 @@ nuclear energy and critical-infrastruture.*
     2.3. An assessment of vulnerabilities and potential impacts associated with the attacks
     
     2.4. Implications of Cyber-Attacks on Nuclear Infrastructure (-Safety and Radiation Risk  -Political and Geopolitical Consequences)
-    
-3. History of how it's been attacked in the past (Dtrack, Conficker, Operation Sharpshooter, Stuxnet)
-4. Modern Vectors of Attack
-5. What is the role of cybersecurity in protecting the nuclear power industry, and how is cybersecurity ensured in nuclear power plants?
+
+<a href={history_url}><button style="background-color:GreenYellow;">3. History of how it's been attacked in the past</button></a>
+
+<a href={attack_vectors_url}><button style="background-color:GreenYellow;">4. Modern Vectors of Attack</button></a>
+
+<a href={role_of_cyber_url}><button style="background-color:GreenYellow;">5. What is the role of cybersecurity</button></a>
   
             """, unsafe_allow_html=True)
-
-# st.button('[1. Definition of Critical Infrastructure](https://ironhackdeliverable-group5.streamlit.app/definition_of_critical_infrastructure)', key='definition')
-# st.button('[2. Cyber Risks and Threats Relating to Critical Infrastructure](https://ironhackdeliverable-group5.streamlit.app/risks_and_threats)', key='risks and threats')
-# st.button("[3. History of how it's been attacked in the past](https://ironhackdeliverable-group5.streamlit.app/history)", key='history')
-# st.button("[4. Modern Vectors of Attack](https://ironhackdeliverable-group5.streamlit.app/modern_attack_vectors)", key='modern attacks')
-# st.button("[5. the role of cybersecurity](https://ironhackdeliverable-group5.streamlit.app/the_role_of_cybersecurity)", key='role of cyber')
-
-
-
