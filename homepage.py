@@ -8,17 +8,6 @@ st.set_page_config(
     menu_items=None
     )
 
-page_element="""
-<style>
-[data-testid="stAppViewContainer"]{
-  background-image: url("static/powerplants_geodata2019.png");
-  background-size: cover;
-}
-</style>
-"""
-
-st.markdown(page_element, unsafe_allow_html=True)
-
 hide_streamlit_style = """
     <style>
     
