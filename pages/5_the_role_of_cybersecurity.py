@@ -29,6 +29,12 @@ hide_streamlit_style = """
 # Inject CSS with Markdown
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+# home button
+home_url = "https://ironhackdeliverable-group5.streamlit.app/"
+st.markdown(f"""
+<a href={home_url} target="_self"><button style="background-color:GreenYellow;">Home</button></a>
+""", unsafe_allow_html=True)
+
 
 st.title("What is the role of cybersecurity in protecting the nuclear power industry, and how is cybersecurity ensured in nuclear power plants")
 

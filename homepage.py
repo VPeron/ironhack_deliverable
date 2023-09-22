@@ -51,12 +51,12 @@ nuclear energy and critical-infrastruture.*
 
 <a href={definition_url} target="_self"><button style="background-color:GreenYellow;">1. Definition of Critical Infrastructure</button></a>
 
-<a href={risks_and_threats_url}><button style="background-color:GreenYellow;">2. Cyber Risks and Threats Relating to Critical Infrastructure</button></a>
+<a href={risks_and_threats_url} target="_self"><button style="background-color:GreenYellow;">2. Cyber Risks and Threats Relating to Critical Infrastructure</button></a>
 
-<a href={history_url}><button style="background-color:GreenYellow;">3. History of how it's been attacked in the past</button></a>
+<a href={history_url} target="_self"><button style="background-color:GreenYellow;">3. History of how it's been attacked in the past</button></a>
 
-<a href={attack_vectors_url}><button style="background-color:GreenYellow;">4. Modern Vectors of Attack</button></a>
+<a href={attack_vectors_url} target="_self"><button style="background-color:GreenYellow;">4. Modern Vectors of Attack</button></a>
 
-<a href={role_of_cyber_url}><button style="background-color:GreenYellow;">5. What is the role of cybersecurity</button></a>
+<a href={role_of_cyber_url} target="_self"><button style="background-color:GreenYellow;">5. What is the role of cybersecurity</button></a>
   
             """, unsafe_allow_html=True)

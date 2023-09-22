@@ -31,7 +31,15 @@ hide_streamlit_style = """
 # Inject CSS with Markdown
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+# home button
+home_url = "https://ironhackdeliverable-group5.streamlit.app/"
+st.markdown(f"""
+<a href={home_url} target="_self"><button style="background-color:GreenYellow;">Home</button></a>
+""", unsafe_allow_html=True)
+
+# content
 st.markdown("""
+
 The term "critical infrastructure" lacks a universally accepted definition. However, there is a consistent thread running through various interpretations. This common thread underscores the immense societal importance of critical infrastructure and the chaos it can unleash when disrupted. A recurring theme in these interpretations is the complexity of critical infrastructure, highlighting the necessity of examining interdependencies and the potential for widespread failures—a topic of significant societal relevance.
 
 In essence, critical infrastructure encompasses the essential systems, assets, and facilities that underpin the functioning of a nation's society and economy. The disruption or destruction of these elements can result in profound and debilitating consequences for a country's security, public safety, or economic stability. The specific sectors considered critical infrastructure may vary from one country to another, encompassing a wide range of areas.
