@@ -1,5 +1,25 @@
 import streamlit as st
 
+hide_streamlit_style = """
+    <style>
+    
+    footer {
+        visibility:hidden;
+    }
+    footer:after {
+        content: 'Ironhack deliverable - Group 5 ®️';
+        visibility: visible;
+        display: block;
+        position: relative;
+        #background-color: red;
+        padding: 5px;
+        top: 2px;
+    }
+    </style>
+"""
+# Inject CSS with Markdown
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 
 st.title("History of how it's been attacked in the past")
 

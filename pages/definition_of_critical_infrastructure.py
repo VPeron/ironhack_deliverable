@@ -3,6 +3,26 @@ import streamlit as st
 
 st.title("Definition of Critical Infrastructure")
 
+hide_streamlit_style = """
+    <style>
+    
+    footer {
+        visibility:hidden;
+    }
+    footer:after {
+        content: 'Ironhack deliverable - Group 5 ®️';
+        visibility: visible;
+        display: block;
+        position: relative;
+        #background-color: red;
+        padding: 5px;
+        top: 2px;
+    }
+    </style>
+"""
+# Inject CSS with Markdown
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 st.markdown("""
 The term "critical infrastructure" lacks a universally accepted definition. However, there is a consistent thread running through various interpretations. This common thread underscores the immense societal importance of critical infrastructure and the chaos it can unleash when disrupted. A recurring theme in these interpretations is the complexity of critical infrastructure, highlighting the necessity of examining interdependencies and the potential for widespread failures—a topic of significant societal relevance.
 
