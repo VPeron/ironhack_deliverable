@@ -3,7 +3,6 @@ import base64
 import streamlit as st
 
 
-
 st.set_page_config(
     page_title="Ironhack", 
     page_icon="☢️",
@@ -31,7 +30,6 @@ hide_streamlit_style = """
 """
 # Inject CSS with Markdown
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
 
 st.title('Guarding Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants')
 
