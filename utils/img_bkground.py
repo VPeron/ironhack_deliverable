@@ -3,6 +3,7 @@ import base64
 import streamlit as st
 
 # prep img format
+@st.cache_data
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
         data = f.read()
