@@ -47,8 +47,7 @@ st.markdown(f"""
 - Rabia
 - Vini  
 
-**Our bootcamp capstone-project aims to illustrate the importance of CyberSecurity in the realms of 
-nuclear energy as critical-infrastruture targets.**
+### Our bootcamp capstone-project aims to illustrate the importance of CyberSecurity in the realms of nuclear energy as critical-infrastruture targets.
 
 ---
 
@@ -67,4 +66,4 @@ nuclear energy as critical-infrastruture targets.**
 """, unsafe_allow_html=True)
 
 # set background img
-set_background('static/home_background_dark.png')
+set_background('static/nuclear_background.png')
