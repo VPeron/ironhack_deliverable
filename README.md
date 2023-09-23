@@ -12,5 +12,3 @@ Group 5:
 An extensive research project on the effects of Cyber attacks on nuclear energy plants as critical-infrastructure targets.
 
 
-# TODO: 
-- expand carroussel and fetch_md utils to all pages so everyone can easily upload an .md file

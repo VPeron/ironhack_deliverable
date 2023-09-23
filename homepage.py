@@ -11,7 +11,7 @@ st.set_page_config(
     menu_items=None
     )
 
-hide_streamlit_style = """
+set_custom_footer = """
     <style>
     
     footer {
@@ -29,7 +29,7 @@ hide_streamlit_style = """
     </style>
 """
 # Inject CSS with Markdown
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.markdown(set_custom_footer, unsafe_allow_html=True)
 
 st.title('Guarding Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants')
 

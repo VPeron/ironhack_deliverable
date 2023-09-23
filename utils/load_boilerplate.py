@@ -9,7 +9,7 @@ def setup_page_config():
         menu_items=None
         )
 
-    insert_footer = """
+    set_custom_footer = """
         <style>
         
         footer {
@@ -27,7 +27,7 @@ def setup_page_config():
         </style>
     """
     # Inject CSS with Markdown
-    st.markdown(insert_footer, unsafe_allow_html=True)
+    st.markdown(set_custom_footer, unsafe_allow_html=True)
 
     # home button
     home_url = "https://ironhackdeliverable-group5.streamlit.app/"

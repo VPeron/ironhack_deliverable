@@ -10,13 +10,13 @@ setup_page_config()
 st.title("History of attacks")
 
 # image slide
-carrousel_paths = [
+carroussel_paths = [
     'static/types_of_powerplants.png',
     'static/planttype_hist.png',
     'static/powerplants_geodata2019.png',
 ]
 
-carroussel_build(carrousel_paths, 'hist_demo_path')
+carroussel_build(carroussel_paths, 'hist_demo_path')
 
 hist_data = render_markdown('static/history.md')
 st.markdown(hist_data)
