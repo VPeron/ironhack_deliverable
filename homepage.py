@@ -31,14 +31,18 @@ set_custom_footer = """
 # Inject CSS with Markdown
 st.markdown(set_custom_footer, unsafe_allow_html=True)
 
-st.title('Guarding Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants')
+# set background img
+set_background('static/nuclear_plant_leonardo.jpg')
 
-# define pages url paths
+# assign pages url paths
 definition_url = "https://ironhackdeliverable-group5.streamlit.app/definition_of_critical_infrastructure"
 risks_and_threats_url = "https://ironhackdeliverable-group5.streamlit.app/risks_and_threats"
 history_url = "https://ironhackdeliverable-group5.streamlit.app/history"
 attack_vectors_url = "https://ironhackdeliverable-group5.streamlit.app/modern_attack_vectors"
 role_of_cyber_url = "https://ironhackdeliverable-group5.streamlit.app/the_role_of_cybersecurity"
+
+# content
+st.title('Guarding Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants')
 
 st.markdown(f"""
 ### Group Members:
@@ -64,6 +68,3 @@ st.markdown(f"""
 <a href={role_of_cyber_url} target="_self"><button style="background-color:GreenYellow;">5. What is The Role of Cybersecurity Within Critical-Infrastructure targets</button></a>
   
 """, unsafe_allow_html=True)
-
-# set background img
-set_background('static/nuclear_background.png')

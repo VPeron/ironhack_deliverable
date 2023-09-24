@@ -1,10 +1,10 @@
 import streamlit as st
 
-def setup_page_config():
+def setup_page_config(inp_layout="centered"):
     st.set_page_config(
         page_title="Ironhack", 
         page_icon="☢️",
-        layout="centered", 
+        layout=inp_layout,
         initial_sidebar_state="collapsed", 
         menu_items=None
         )

@@ -2,7 +2,11 @@ import streamlit as st
 
 
 
-def carroussel_build(img_list:list , slide_key:str):
+def carrousel_build(img_list:list , slide_key:str):
+    """
+    caroussel is buggy as once in a cycle button click fails, 
+    slide is more reliable but not practical.
+    """
     
     if slide_key not in st.session_state:
         st.session_state[slide_key] = 0
