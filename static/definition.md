@@ -2,7 +2,7 @@ The term "critical infrastructure" lacks a universally accepted definition. Howe
 
 In essence, critical infrastructure encompasses the essential systems, assets, and facilities that underpin the functioning of a nation's society and economy. The disruption or destruction of these elements can result in profound and debilitating consequences for a country's security, public safety, or economic stability. The specific sectors considered critical infrastructure may vary from one country to another, encompassing a wide range of areas.
 
-**In the United States**, the Department of Homeland Security (DHS) holds authority over the definition and categorization of critical infrastructure. The DHS identifies and classifies 16 critical infrastructure sectors, each of which plays a pivotal role in the nation's security, public safety, and economic well-being.These sectors include:
+**In the United States**, the Department of Homeland Security (DHS) holds authority over the definition and categorization of critical infrastructure. The DHS identifies and classifies 16 critical infrastructure sectors, each of which plays a pivotal role in the nation's security, public safety, and economic well-being.
 
 1. Chemical Sector
 2. Commercial Facilities Sector
@@ -24,7 +24,7 @@ In essence, critical infrastructure encompasses the essential systems, assets, a
 On the other hand **in the European Union**, the definition and protection of critical infrastructure are primarily 
 the responsibility of individual member states, although a common framework for European Critical Infrastructure (ECI) 
 protection exists. The framework governing Critical Infrastructures in Europe is regulated by the European Directive 2022/2557 
-(**The Critical Entities Resilience Directive** - CER Directive). Under this directive 11 sectors are covered⁴. These sectors include:
+(**The Critical Entities Resilience Directive** - CER Directive). Under this directive 11 sectors are covered⁴. 
 
 1. Energy Sector
 2. Transport Sector
