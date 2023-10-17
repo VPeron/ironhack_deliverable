@@ -21,6 +21,10 @@ In essence, critical infrastructure encompasses the essential systems, assets, a
 15. Transportation Systems Sector
 16. Water and Wastewater Systems Sector
 
+![Test banner](US_Catogarisation.png)
+
+<img title="not a title" alt="banner test" src="US_Catogarisation.png">
+
 On the other hand **in the European Union**, the definition and protection of critical infrastructure are primarily 
 the responsibility of individual member states, although a common framework for European Critical Infrastructure (ECI) 
 protection exists. The framework governing Critical Infrastructures in Europe is regulated by the European Directive 2022/2557 

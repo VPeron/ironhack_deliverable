@@ -11,4 +11,4 @@ setup_page_config()
 st.title("Cyber Risks and Theats Related to Critical Infrastructure")
 
 threat_data = render_markdown('static/threats.md')
-st.markdown(threat_data)
+st.markdown(threat_data, unsafe_allow_html=True)

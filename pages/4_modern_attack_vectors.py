@@ -12,4 +12,4 @@ st.title("Modern Vectors of Attack")
 
 threat_data = render_markdown('static/modern_attacks.md')
 
-st.markdown(threat_data)
+st.markdown(threat_data, unsafe_allow_html=True)

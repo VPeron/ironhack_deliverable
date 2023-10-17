@@ -23,4 +23,4 @@ carrousel_build(carroussel_paths, 'hist_demo_path')
 st.video('https://www.youtube.com/watch?v=9DCwyuH29SI')
 
 hist_data = render_markdown('static/history.md')
-st.markdown(hist_data)
+st.markdown(hist_data, unsafe_allow_html=True)
