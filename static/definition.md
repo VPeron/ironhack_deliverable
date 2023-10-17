@@ -21,13 +21,6 @@ In essence, critical infrastructure encompasses the essential systems, assets, a
 15. Transportation Systems Sector
 16. Water and Wastewater Systems Sector
 
-### References:
-
-1. https://websites.fraunhofer.de/CIPedia/index.php/Critical_Infrastructure_Sector
-2. https://blog.midches.com/blog/16-critical-infrastructure-sectors
-3. http://www.whitehouse.gov/the-press-office/2013/02/12/presidential-policy-directive-critical-infrastructure-security-and-resil
-
-
 On the other hand **in the European Union**, the definition and protection of critical infrastructure are primarily 
 the responsibility of individual member states, although a common framework for European Critical Infrastructure (ECI) 
 protection exists. The framework governing Critical Infrastructures in Europe is regulated by the European Directive 2022/2557 
@@ -60,8 +53,13 @@ However, this critical role also makes them susceptible to a unique set of chall
 The digitalization and interconnectedness of nuclear energy plants introduce vulnerabilities that demand meticulous safeguarding. 
 In this exploration, we try to explore the cybersecurity threats they face, implications of cyber attacks to nuclear energy plants . 
 
-### References
 
+
+### References:
+
+1. https://websites.fraunhofer.de/CIPedia/index.php/Critical_Infrastructure_Sector
+2. https://blog.midches.com/blog/16-critical-infrastructure-sectors
+3. http://www.whitehouse.gov/the-press-office/2013/02/12/presidential-policy-directive-critical-infrastructure-security-and-resil
 4. See the Annex of https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022L2557&qid=1695325961732
 5. https://www.cisa.gov/sites/default/files/2023-01/ppd-21-critical-infrastructure-and-resilience-508_0.pdf^
 6. https://world-nuclear.org/information-library/country-profiles/others/european-union.aspx, https://cipher.com/blog/the-16-sectors-of-critical-infrastructure-cybersecurity/
