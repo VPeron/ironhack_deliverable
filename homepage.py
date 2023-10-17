@@ -33,7 +33,7 @@ set_custom_footer = """
 st.markdown(set_custom_footer, unsafe_allow_html=True)
 
 # set background img
-set_background('static/nuclear_plant_leonardo.jpg')
+set_background('static/home/nuclear_plant_leonardo.jpg')
 
 # assign pages url paths
 definition_url = "https://ironhackdeliverable-group5.streamlit.app/definition_of_critical_infrastructure"
@@ -74,7 +74,7 @@ with col2:
     - Vini  
     """, unsafe_allow_html=True)
 
-intro_text = render_markdown('static/Introduction.md')
+intro_text = render_markdown('static/home/Introduction.md')
 st.markdown(f"""
 ---
 {intro_text}

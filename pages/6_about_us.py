@@ -24,4 +24,4 @@ st.markdown("""
  
             """, unsafe_allow_html=True)
 
-st.image("static/ironhack_logo.png")
+st.image("static/about/ironhack_logo.png")
