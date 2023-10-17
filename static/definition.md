@@ -4,42 +4,10 @@ In essence, critical infrastructure encompasses the essential systems, assets, a
 
 **In the United States**, the Department of Homeland Security (DHS) holds authority over the definition and categorization of critical infrastructure. The DHS identifies and classifies 16 critical infrastructure sectors, each of which plays a pivotal role in the nation's security, public safety, and economic well-being.
 
-1. Chemical Sector
-2. Commercial Facilities Sector
-3. Communications Sector
-4. Critical Manufacturing Sector
-5. Dams Sector
-6. Defense Industrial Base Sector
-7. Emergency Services Sector
-8. Energy Sector
-9. Financial Services Sector
-10. Food and Agriculture Sector
-11. Government Facilities Sector
-12. Healthcare and Public Health Sector
-13. Information Technology Sector
-14. Nuclear Reactors, Materials, and Waste Sector
-15. Transportation Systems Sector
-16. Water and Wastewater Systems Sector
-
-![Test banner](static/US_Catogarisation.png)
-
-<img title="not a title" alt="banner test" src="static/US_Catogarisation.png">
-
 On the other hand **in the European Union**, the definition and protection of critical infrastructure are primarily 
 the responsibility of individual member states, although a common framework for European Critical Infrastructure (ECI) 
 protection exists. The framework governing Critical Infrastructures in Europe is regulated by the European Directive 2022/2557 
 (**The Critical Entities Resilience Directive** - CER Directive). Under this directive 11 sectors are covered⁴. 
-
-1. Energy Sector
-2. Transport Sector
-3. Banking and Financial Market Infrastructures Sector
-4. Health Sector
-5. Drinking Water Sector
-6. Wastewater Sector
-7. Digital Infrastructure Sector
-8. Public Administration Entities
-9. Space Operations
-10. Production, Processing, and Distribution of Food
 
 Each of these sectors confronts its own unique challenges and threats, including the ever-present specter of cybersecurity risks.  
 
