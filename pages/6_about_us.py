@@ -6,9 +6,9 @@ setup_page_config()
 
 st.title("About Us")
 
+st.image("static/about/ironhack_logo.png")
+
 st.markdown("""
-            
----
    
 # Antonio
 
@@ -28,4 +28,3 @@ st.markdown("""
  
 """, unsafe_allow_html=True)
 
-st.image("static/about/ironhack_logo.png")
