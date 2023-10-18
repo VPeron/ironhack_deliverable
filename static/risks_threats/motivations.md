@@ -5,21 +5,25 @@ Critical infrastructure, including nuclear energy plants, plays a pivotal role i
 
 Cyber espionage involves obtaining secret information for political, military, or economic gain through illicit internet, network, or computer techniques. It includes:
 
-### A.Geopolitical Gains: Nation-states engage in cyber-attacks on critical infrastructure to gain strategic advantages, such as intelligence on a rival nation's capabilities and intentions.
+**A.Geopolitical Gains:** 
+Nation-states engage in cyber-attacks on critical infrastructure to gain strategic advantages, such as intelligence on a rival nation's capabilities and intentions.
 
-### B.Intellectual Property Theft: Adversaries may target proprietary technologies and trade secrets, like advanced reactor designs in the context of nuclear energy.
+**B.Intellectual Property Theft:** 
+Adversaries may target proprietary technologies and trade secrets, like advanced reactor designs in the context of nuclear energy.
 
-### C.Sabotage and Disruption: State-sponsored actors aim to disrupt nuclear energy plants or cause subtle damage for covert influence.
+**C.Sabotage and Disruption:** 
+State-sponsored actors aim to disrupt nuclear energy plants or cause subtle damage for covert influence.
 
-### D.Cyber Warfare: This is an act of war using internet-enabled technology on a nation's digital infrastructure, typically in the context of a state of war.
+**D.Cyber Warfare:** 
+This is an act of war using internet-enabled technology on a nation's digital infrastructure, typically in the context of a state of war.
 
 ## Non-State Actors (Cyber-Terrorism and Hacktivism)
 
 Non-state actors, such as terrorist organizations and hacktivists, target critical infrastructure for ideological and financial motives. It includes:
 
-### A.Ideological Motives: These actors aim to advance their agendas by opposing nuclear energy for moral, political, or environmental reasons.
+**A.Ideological Motives:** These actors aim to advance their agendas by opposing nuclear energy for moral, political, or environmental reasons.
 
-### B.Financial Gain: Cybercriminals exploit vulnerabilities in critical infrastructure for financial gain, often through ransomware attacks.
+**B.Financial Gain:** Cybercriminals exploit vulnerabilities in critical infrastructure for financial gain, often through ransomware attacks.
 
 ## Insider Threats
 
