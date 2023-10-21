@@ -41,6 +41,7 @@ risks_and_threats_url = "https://ironhackdeliverable-group5.streamlit.app/risks_
 history_url = "https://ironhackdeliverable-group5.streamlit.app/history"
 attack_vectors_url = "https://ironhackdeliverable-group5.streamlit.app/modern_attack_vectors"
 role_of_cyber_url = "https://ironhackdeliverable-group5.streamlit.app/the_role_of_cybersecurity"
+about_us_url = "https://ironhackdeliverable-group5.streamlit.app/about_us"
 
 # content
 st.title('Guarding Critical Infrastructures: Analyzing and Mitigating Cyber Threats in Nuclear Energy Plants')
@@ -62,6 +63,7 @@ with col1:
 
     <a href={role_of_cyber_url} target="_self"><button style="background-color:White;">5. What is The Role of Cybersecurity Within Critical-Infrastructure targets</button></a>
 
+    <a href={about_us_url} target="_self"><button style="background-color:White;">6. About Us</button></a>
 
     """, unsafe_allow_html=True)
 

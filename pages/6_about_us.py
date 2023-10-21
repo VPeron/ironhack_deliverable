@@ -22,7 +22,17 @@ st.markdown("""
 
 ---
 
-# Vini
+# Vinicius Peron
+
+[Linkedin](www.linkedin.com/in/vinicius-p-9a9197270)
+
+[Github](https://github.com/VPeron)
+
+[TryHackMe](https://tryhackme.com/p/Crackpot)
+
+[Portfolio](https://vperon-utilities.streamlit.app/)
+
+    Guest:Guest123$
 
 ---
  
