@@ -71,7 +71,7 @@ with col2:
     st.markdown(f"""
     ### Group Members:
     - **Antonio**
-    - **Cesar**
+    - **César**
     - **Rabia**
     - **Vini**  
     """, unsafe_allow_html=True)

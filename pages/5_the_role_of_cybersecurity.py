@@ -8,7 +8,7 @@ setup_page_config()
 
 
 # content
-st.title("What is the role of cybersecurity in protecting the nuclear power industry, and how is cybersecurity ensured in nuclear power plants")
+#st.title("What is the role of cybersecurity in protecting the nuclear power industry, and how is cybersecurity ensured in nuclear power plants")
 
 cyber_role_data = render_markdown('static/cyber_role/cyber_roles.md')
 st.markdown(cyber_role_data, unsafe_allow_html=True)
