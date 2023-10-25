@@ -14,7 +14,7 @@ st.markdown("""
 
 ---
 
-# Cesar
+# César
 
 ---
 
@@ -29,10 +29,6 @@ st.markdown("""
 [Github](https://github.com/VPeron)
 
 [TryHackMe](https://tryhackme.com/p/Crackpot)
-
-[Portfolio](https://vperon-utilities.streamlit.app/)
-
-    Guest:Guest123$
 
 ---
  

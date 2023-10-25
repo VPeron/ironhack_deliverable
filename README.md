@@ -5,7 +5,7 @@
 
 Group 5:
 - Antonio
-- Cesar
+- César
 - Rabia
 - Vini
 
