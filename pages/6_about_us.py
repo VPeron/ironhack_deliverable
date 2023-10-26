@@ -24,7 +24,7 @@ st.markdown("""
 
 # Vinicius Peron
 
-[Linkedin](www.linkedin.com/in/vinicius-p-9a9197270)
+[Linkedin](https://www.linkedin.com/in/vinicius-p-9a9197270)
 
 [Github](https://github.com/VPeron)
 
